@@ -1,0 +1,43 @@
+<template>
+    <div class="section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 mb-lg-30 ct-single-img-wrapper">
+                    <img :src="'temp/assets/img/auth.webp'" alt="img">
+                    <div class="ct-dots"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title-wrap mr-lg-30">
+                        <h5 class="custom-primary">Sir Slice's Heritage</h5>
+                        <h2 class="title">Serving Pizzas By The Slice Since 1987</h2>
+                        <p class="subtitle">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry.
+                        </p>
+                        <p class="subtitle">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <div class="signature">
+                            <img :src="'temp/assets/img/signature.png'" alt="signature">
+                        </div>
+                        <a href="/menu" class="btn-custom">Check our Menu</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {}
+        },
+        methods: {},
+        mounted() {
+        }
+    }
+</script>
