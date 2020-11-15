@@ -50,7 +50,6 @@
             ...mapActions(['getAllPizzas']),
         },
         created() {
-            this.getAllPizzas()
         }
     }
 </script>

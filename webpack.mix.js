@@ -12,4 +12,13 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css')
+;
+
+// mix.styles([
+//     'resources/sass/app.scss',
+//     'temp/assets/css/plugins/slick.css',
+//     'temp/assets/css/plugins/slick-theme.css',
+//     'temp/assets/fonts/flaticon/flaticon.css',
+//     'temp/assets/css/style.css',
+// ], 'public/css/app.css');

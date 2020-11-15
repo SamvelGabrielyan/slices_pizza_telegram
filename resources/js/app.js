@@ -7,8 +7,14 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+import VueTilt from 'vue-tilt.js'
 import store from "./store";
 import router from "./router";
+
+
+
+
+Vue.use(VueTilt)
 
 /**
  * The following block of code may be used to automatically register your
@@ -39,5 +45,6 @@ Vue.component('modal-component', require('./components/ModalComponent').default)
 const app = new Vue({
     el: '#app',
     store,
-    router
+    router,
+    // VueTilt
 });

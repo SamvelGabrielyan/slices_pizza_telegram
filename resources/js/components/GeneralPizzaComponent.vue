@@ -39,7 +39,7 @@
                                     <h4>${{pizza.price}}</h4>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6">
+                            <div v-tilt="{speed: 500, perspective: 1200}" class="col-xl-6 col-lg-6">
                                 <img :src="pizza.pic" alt="pizza">
                             </div>
                         </div>
